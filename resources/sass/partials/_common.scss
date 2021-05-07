@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+// mix
+.active{
+    background-color: $active_color;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: $container;
+    width: 100%;
+    margin: auto;
+}
+

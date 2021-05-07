@@ -1,1 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.active {
+  background-color: #b2e5fc;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.navbar li {
+  display: inline;
+  padding: 15px 5px;
+  margin: 0px 15px;
+}
+
+main {
+  height: 700px;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+}
