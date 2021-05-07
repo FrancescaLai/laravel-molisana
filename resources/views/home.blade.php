@@ -15,6 +15,7 @@
 </head>
 <body>
 
+    {{-- Header --}}
     <header>
         <div class="container">
             <div class="logo">
@@ -29,10 +30,18 @@
             </nav>
         </div>
     </header>
+    {{-- Header --}}
 
+    {{-- Main --}}
     <main>
-        
+        <div class="small-container">
+            <div class="box-pasta">
+                <h3>LE LUNGHE</h3>
+                
+            </div>
+        </div>      
     </main>
+    {{-- Main --}}
     
 </body>
 </html>
