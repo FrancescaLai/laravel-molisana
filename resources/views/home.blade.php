@@ -9,6 +9,13 @@
     <title>La Molisana</title>
 </head>
 <body>
+
+    <header>
+        <div class="container">
+            <img src="{{ asset('img/molisana-logo.png') }}" alt="">
+
+        </div>
+    </header>
     
 </body>
 </html>
