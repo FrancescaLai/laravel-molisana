@@ -1,6 +1,6 @@
-h3 {
+h2 {
   color: #022D73;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 * {
@@ -23,15 +23,9 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
   margin: auto;
-}
-
-.small-container {
-  padding: 50px;
-  margin: auto;
-  max-width: 900px;
 }
 
 .logo {
@@ -53,7 +47,20 @@ a {
 }
 
 main {
-  height: 700px;
   background-image: url("/img/background.jpg");
   background-size: contain;
+}
+main .container {
+  padding: 50px;
+}
+main .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container .cards .card {
+  width: calc((100% / 3) - 20px);
+  margin: 10px 10px 0px 0px;
+}
+main .container .cards .card img {
+  width: 100%;
 }

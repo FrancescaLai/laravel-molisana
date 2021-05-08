@@ -1,5 +1,22 @@
 main{
-    height: 700px;
     background-image: url('/img/background.jpg');
     background-size: contain;
+
+    .container{
+        padding: 50px;
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+
+            .card{
+                width: calc((100% / 3) - 20px);
+                margin: 10px 10px 0px 0px;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
