@@ -1,0 +1,15 @@
+.product{
+    background-color: $background_color;
+    h1{
+        text-align: center;
+        padding-top: 40px;
+    }
+    img{
+        width: 100%;
+    }
+
+    p{
+       color: $main_color;
+       padding-bottom: 40px;
+    }
+}
