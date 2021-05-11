@@ -1,4 +1,4 @@
-<<?php
+<?php
 
 $data = [
         [
@@ -109,7 +109,7 @@ $data = [
             "tipo" => "corta",
             "cottura" => "9 min",
             "peso" => "500g",
-            "descrizione" => "Incontrare tanti formati di pasta diversi…  in un solo pack è un\'idea assolutamente originale! Ogni singolo formato è stato scelto e abbinato con cura, studiando il giusto equilibrio tra affinità e differenze, per ottenere un prodotto versatile, originale e gustosissimo.<br> Questa è la nostra mission… portare quotidianamente sulla tavola una pasta di Qualità, intesa prima di tutto come impegno di natura etica, fondamento su cui costruiamo il nostro business.<br> Da oltre 100 anni l\'amore per la Qualità si è rinnovato ed è maturato, un sentimento che ci induce a compiere tutto con passione e nel modo migliore, attratti da una formula naturale, semplice quanto incredibile: acqua e semola!"
+            "descrizione" => "Incontrare tanti formati di pasta diversi…  in un solo pack è un'idea assolutamente originale! Ogni singolo formato è stato scelto e abbinato con cura, studiando il giusto equilibrio tra affinità e differenze, per ottenere un prodotto versatile, originale e gustosissimo.<br> Questa è la nostra mission… portare quotidianamente sulla tavola una pasta di Qualità, intesa prima di tutto come impegno di natura etica, fondamento su cui costruiamo il nostro business.<br> Da oltre 100 anni l'amore per la Qualità si è rinnovato ed è maturato, un sentimento che ci induce a compiere tutto con passione e nel modo migliore, attratti da una formula naturale, semplice quanto incredibile: acqua e semola!"
         ],
         [
             "src" => "https://www.lamolisana.it/wp-content/uploads/2018/06/84-ditale-quadrato-m.jpg",
@@ -122,7 +122,4 @@ $data = [
             "descrizione" => "Altro elemento cult della famiglia de lo Spaghetto Quadrato (N.1 Spaghetto Quadrato. Una new entry che sarà molto apprezzata sia dai consumatori che dagli chef, perché il Ditale Quadrato è un formato deliziosamente piccolo ma sostanzioso.<br>A dispetto del nome che fa pensare ad una pastina è un formato di pasta assolutamente versatile, adatto a moltissime ricette di primi piatti.<br>La sua consistenza soda si sprigiona in bocca con un\'esplosione di emozioni, grazie agli spessori corposi, al colore elegantemente ambrato, alla texture delicatamente ruvida, cangiante e piacevolissima al tatto che trattiene il condimento sulla superficie.<br>Il Ditale Quadrato sembra ideale per preparazioni strutturate come la ricetta con crema di broccoletto siciliano, calamari e pomodori semi secchi profumata al limone e carbone d\'olive nere."
         ]
     ];    
-
 return $data;
-    
-?>

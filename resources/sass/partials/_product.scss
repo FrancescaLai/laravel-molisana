@@ -1,5 +1,6 @@
 .product{
     background-color: $background_color;
+    position: relative;
     h1{
         text-align: center;
         padding-top: 40px;
@@ -11,5 +12,23 @@
     p{
        color: $main_color;
        padding-bottom: 40px;
+    }
+
+    &-chevron{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        a{
+            padding: 15px;
+            background-color: rgba(255,255,255,.6);
+        }
+
+        &.left{
+            left: 20px;
+        }
+        &.right{
+            right: 20px;
+        }
     }
 }

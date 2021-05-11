@@ -71,6 +71,7 @@ footer {
 
 .product {
   background-color: #b7dae5;
+  position: relative;
 }
 .product h1 {
   text-align: center;
@@ -82,4 +83,19 @@ footer {
 .product p {
   color: #022D73;
   padding-bottom: 40px;
+}
+.product-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.product-chevron a {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.product-chevron.left {
+  left: 20px;
+}
+.product-chevron.right {
+  right: 20px;
 }
